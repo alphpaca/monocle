@@ -1,0 +1,37 @@
+{
+    "name": "alphpaca/monocle",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacob Tobiasz",
+            "email": "jacob@alphpaca.io"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^2.1",
+        "composer/composer": "^2.1",
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "captainhook/captainhook": "^5.23",
+        "friendsofphp/php-cs-fixer": "^3.57",
+        "phpstan/phpstan": "^1.11",
+        "phpunit/phpunit": "^11.1",
+        "shipmonk/composer-dependency-analyser": "^1.5",
+        "symplify/monorepo-builder": "^11.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alphpaca\\Monocle\\AlabamaAkita\\": "packages/AlabamaAkita/src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
+        }
+    },
+    "replace": {
+        "alphpaca/monocle-alabama-akita": "self.version"
+    }
+}
