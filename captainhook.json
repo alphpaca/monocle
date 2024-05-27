@@ -18,6 +18,9 @@
             },
             {
                 "action": "vendor/bin/phpstan analyse"
+            },
+            {
+                "action": "vendor/bin/phpunit"
             }
         ]
     },

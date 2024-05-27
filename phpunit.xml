@@ -3,4 +3,9 @@
          xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/11.1/phpunit.xsd"
          colors="true"
 >
+    <testsuites>
+        <testsuite name="alabama_akita">
+            <directory>packages/AlabamaAkita/tests</directory>
+        </testsuite>
+    </testsuites>
 </phpunit>

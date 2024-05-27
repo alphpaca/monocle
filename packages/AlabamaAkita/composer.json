@@ -10,12 +10,18 @@
   ],
   "require": {
     "php": "^8.3",
-    "composer/composer": "^2.1",
-    "composer-plugin-api": "^2.1"
+    "composer/composer": "^2.7",
+    "composer/semver": "^3.2",
+    "composer-plugin-api": "^2.6"
   },
   "autoload": {
     "psr-4": {
       "Alphpaca\\Monocle\\AlabamaAkita\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Alphpaca\\Monocle\\AlabamaAkita\\": "tests/"
     }
   },
   "extra": {
