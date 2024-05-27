@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Alphpaca\\Monocle\\AlabamaAkita\\": "packages/AlabamaAkita/src/"
+            "Alphpaca\\Monocle\\Constraint\\": "packages/Constraint/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\Alphpaca\\Monocle\\AlabamaAkita\\": "packages/AlabamaAkita/tests/"
+            "Tests\\Alphpaca\\Monocle\\Constraint\\": "packages/Constraint/tests/"
         }
     },
     "extra": {
@@ -38,6 +38,6 @@
         }
     },
     "replace": {
-        "alphpaca/monocle-alabama-akita": "self.version"
+        "alphpaca/monocle-constraint": "self.version"
     }
 }

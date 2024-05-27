@@ -4,8 +4,8 @@
          colors="true"
 >
     <testsuites>
-        <testsuite name="alabama_akita">
-            <directory>packages/AlabamaAkita/tests</directory>
+        <testsuite name="constraint">
+            <directory>packages/Constraint/tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>

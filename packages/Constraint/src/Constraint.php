@@ -11,13 +11,13 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Alphpaca\Monocle\AlabamaAkita;
+namespace Alphpaca\Monocle\Constraint;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
 
-final class AlabamaAkita implements PluginInterface
+final class Constraint implements PluginInterface
 {
     public function activate(Composer $composer, IOInterface $io)
     {

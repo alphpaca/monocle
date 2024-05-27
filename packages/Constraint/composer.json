@@ -1,5 +1,5 @@
 {
-  "name": "alphpaca/monocle-alabama-akita",
+  "name": "alphpaca/monocle-constraint",
   "type": "project",
   "license": "MIT",
   "authors": [
@@ -16,12 +16,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Alphpaca\\Monocle\\AlabamaAkita\\": "src/"
+      "Alphpaca\\Monocle\\Constraint\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Tests\\Alphpaca\\Monocle\\AlabamaAkita\\": "tests/"
+      "Tests\\Alphpaca\\Monocle\\Constraint\\": "tests/"
     }
   },
   "extra": {
