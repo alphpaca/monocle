@@ -9,10 +9,12 @@
         }
     ],
     "require": {
+        "php": "^8.3",
         "composer-plugin-api": "^2.6",
         "composer/composer": "^2.7",
+        "composer/metadata-minifier": "^1.0",
         "composer/semver": "^3.2",
-        "php": "^8.3"
+        "symfony/http-client-contracts": "^3.5"
     },
     "require-dev": {
         "captainhook/captainhook": "^5.23",
@@ -20,6 +22,7 @@
         "phpstan/phpstan": "^1.11",
         "phpunit/phpunit": "^11.1",
         "shipmonk/composer-dependency-analyser": "^1.5",
+        "symfony/http-client": "^6.4",
         "symplify/monorepo-builder": "^11.2"
     },
     "autoload": {
