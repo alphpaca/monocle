@@ -1,0 +1,6 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Variable \\$monorepositoryPackagesMap might not be defined\\.$#"
+			count: 1
+			path: packages/Constraint/src/Plugin.php
