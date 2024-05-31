@@ -9,7 +9,6 @@
         }
     ],
     "require": {
-        "php": "^8.3",
         "composer-plugin-api": "^2.6",
         "composer/composer": "^2.7",
         "composer/metadata-minifier": "^1.0",
